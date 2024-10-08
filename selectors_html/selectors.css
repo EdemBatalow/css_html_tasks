@@ -1,5 +1,16 @@
 /*задание 51 */
-
 #h1_51, #h2_51, #h3_51 {
     text-align: center;
+}
+
+#h1_52, #h2_52, #h3_52 {
+    text-align: center;
+}
+
+#h2_52 {
+    color: blue;
+}
+#h3_52 {
+    font-size: 16px;
+    color: red;
 }
