@@ -2,15 +2,36 @@
 #h1_51, #h2_51, #h3_51 {
     text-align: center;
 }
-
-#h1_52, #h2_52, #h3_52 {
+/*задание 52 */
+.task_52{
+    h1, h2, h3{
     text-align: center;
-}
+    }
 
-#h2_52 {
+
+h2{
     color: blue;
 }
-#h3_52 {
+h3{
     font-size: 16px;
     color: red;
+}
+}
+/*задание 53 */
+.task_53_1 {
+    ul li i {
+        color: red;
+    }
+    
+    p i {
+        color: green;
+    }
+}
+
+.task_53_2 {
+    
+p b i {
+    color: red;
+} 
+
 }
