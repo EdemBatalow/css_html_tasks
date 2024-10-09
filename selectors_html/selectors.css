@@ -83,3 +83,29 @@ p b i {
 .green {
     color: green;
 }
+
+/*Задание 58_1 */
+
+.eeee, .zzz {
+    line-height: 1.5;
+    font-family: Arial;
+}
+
+/*Задание 58_2*/
+
+.eeeee, .zzzz, .ggg {
+    text-align: center;
+    font-family: Arial;
+}
+
+.eee {
+    font-size: 20px;
+}
+
+.zzz {
+    font-size: 30px;
+}
+
+.ggg {
+    font-size: 35px;
+} 
