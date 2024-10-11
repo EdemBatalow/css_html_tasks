@@ -119,3 +119,8 @@ h2.header {
 h3.header {
     font-size: 30px;
 } 
+
+/*Задание 60 */
+.aaa i {
+    color: red
+}
