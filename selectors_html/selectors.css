@@ -109,3 +109,13 @@ p b i {
 .ggg {
     font-size: 35px;
 } 
+
+/*Задание 59*/
+
+h2.header {
+    font-size: 40px;
+}
+
+h3.header {
+    font-size: 30px;
+} 
