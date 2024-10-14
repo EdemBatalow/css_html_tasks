@@ -169,3 +169,15 @@ body{
     
     background-image: url(bg.png)
 }
+/*Задание 109_1*/
+body{
+    background-image: url(bg.png);
+    background-repeat: repeat-y;
+}
+
+/*Задание 109_2*/
+
+body{
+    background-image: url(bg.png);
+    background-repeat: repeat-x;
+}
