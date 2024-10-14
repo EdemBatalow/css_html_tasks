@@ -381,3 +381,220 @@ p.bbb4, h2.xxx4 {
 main * p {
     color: hotpink;
 }
+/*Задание_80_1*/
+
+[title] {
+    color: blue; 
+    font-weight: bold;
+}
+
+/*Задание_80_2*/
+
+p[title1] {
+    color: purple; 
+    font-style: italic; 
+}
+
+/*Задание_80_3*/
+p[title3="hello"] {
+    color: blue;
+    font-weight: bold;
+}
+
+/*Задание_80_4*/
+a[href^="http://"] {
+    color:rgb(136, 255, 0);
+    text-align: center;
+}
+
+/*Задание_80_5*/
+
+a[href$=".html"] {
+    color: green;
+}
+
+/*Задание_80_6*/
+
+p[title4*="hello"] {
+    font-weight: bold;
+}
+
+/*Задание_80_7*/
+p[class^="top-"] {
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+
+/*Задание_82*/
+a:link {
+    color: blue; /* Голубой цвет для ссылок, которые еще не посещены */
+    text-decoration: none; /* Убирает подчеркивание у ссылок */
+}
+
+a:visited {
+    color: green; /* Зеленый цвет для посещенных ссылок */
+    text-decoration: none; /* Убирает подчеркивание */
+}
+
+a:hover {
+    color: red; /* Красный цвет при наведении на ссылку */
+    text-decoration: none; /* Убирает подчеркивание при наведении */
+}
+
+a:active {
+    color: black; /* Черный цвет при нажатии на ссылку */
+    text-decoration: none; /* Убирает подчеркивание при нажатии */
+}
+
+/* Задание_84*/
+
+.custom-links a {
+    color: blue; /* Голубой цвет ссылок */
+    text-decoration: none; /* Убираем подчеркивание */
+}
+.custom-links a:hover {
+    color: red; /* Красный цвет при наведении */
+    text-decoration: underline; /* Подчеркивание при наведении */
+}
+
+/* Задание_85*/
+
+#test a {
+	color: red;
+}
+#test a:hover {
+	text-decoration: none;
+}
+
+/*Задание_86_1*/
+a.task_86_1 {
+	color: red;
+}
+a.task_86_1:hover {
+	text-decoration: none;
+}
+
+/*Задание_86_2*/
+
+#block_86_2 a.task_86_2 {
+	color: red;
+}
+#block_86_2 a.task_86_2:hover {
+	text-decoration: none;
+}
+
+/*Задание_86_3*/
+
+.block_86_3 a.task_86_3 {
+	color: red;
+}
+.block_86_3 a.task_86_3:hover {
+	text-decoration: none;
+}
+
+/* Задание_87_1 */
+.task_87_1 li:first-child{
+    color :rgb(255, 0, 0);
+}
+
+/* Задание_87_2 */
+.task_87_2 li:last-child{
+    color : green;
+}
+/* Задание_87_3 */
+.task_87_3 li:first-child{
+    color :rgb(255, 0, 0);
+}
+.task_87_3 li:last-child{
+    color : green;
+}
+/* Задание_87_4 */
+.task_87_4 li:nth-child(3){
+    color : red;
+}
+/* Задание_87_5 */
+.task_87_5 li:nth-child(odd){
+    color:red;
+}
+.task_87_5 li:nth-child(even){
+    color: green;
+}
+/* Задание_87_6 */
+.task_87_6 li:nth-child(3n){
+    color:red;
+}
+/* Задание_87_7 */
+.task_87_7 li:nth-last-child(2){
+    color:red; 
+}
+/* Задание_87_8 */
+.task_87_8 li:only-child {
+	color: red;
+}
+
+.task_87_8 ul {
+	margin-bottom: 10px;
+}
+/* Задание_87_9 */
+.task_87_9 li {
+    border: 1px solid red;
+    width: 100px;
+    padding: 3px;
+    margin-top: 10px;
+   }
+.task_87_9 li:empty {
+    border: 1px solid blue;
+   }
+
+   .task_88_1 {
+    
+     p:nth-of-type(3) {
+        color: blue;
+        font-weight: bold;
+    }
+
+    h2:nth-last-of-type(2) {
+        color: green;
+    }
+}
+
+.task_88_2 {
+      
+      p:first-of-type {
+        color: purple;
+        font-style: italic;
+    }
+
+  
+    h2:last-of-type {
+        color: orange;
+        text-transform: uppercase;
+    }
+}
+
+.task_88_3 {
+      
+       p:only-of-type {
+        color: darkred;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    
+    h2:only-of-type {
+        color: darkblue;
+    }
+}
+
+/* Задание_89_1 */
+.task_89_1 li:not(li.elem89_1){
+    color: rgb(255, 51, 85);
+}
+/* Задание_89_2 */
+.task_89_2 li:not(:first-child) {
+    color: skyblue;
+}
+/* Задание_89_3 */
+.task_89_3 li:not(:first-child, :last-child){
+    color: royalblue;
+}
