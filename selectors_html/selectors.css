@@ -157,3 +157,28 @@ p .bbb {
 .eee p.bbb {
 	color: red;
 }
+
+/* Задание 63_1 */
+.success {
+	color: green;
+}
+.error {
+	color: red;
+}
+.large {
+	font-size: 30px;
+}
+.small {
+	font-size: 20px;
+}
+
+/*Задание 63_2 */
+.red {
+    color: red;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
