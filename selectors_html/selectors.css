@@ -145,3 +145,15 @@ h3.header {
 .eee .bbb .kkk {
 	color: red;
 }
+/*Задание 62_1*/
+p.bbb {
+	color: red;
+}
+/*Задание 62_2*/
+p .bbb {
+	color: red;
+}
+/*Задание 62_3*/
+.eee p.bbb {
+	color: red;
+}
