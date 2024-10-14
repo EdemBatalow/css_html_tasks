@@ -122,3 +122,45 @@
 	height: 200px;
 	background-color: rgb(0, 255, 179);
 }
+
+/*Задание_101*/
+#elem15 {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	border: 1px solid green;
+}
+
+/*Задание_103*/
+#elem16 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px;
+
+}
+
+/*Задание_104*/
+
+#elem17 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px;
+}
+
+/*Задание_105*/
+#elem18 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    border-radius: 10px 30px 20px;
+}
+
+/*Задание_107*/
+#elem19{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
