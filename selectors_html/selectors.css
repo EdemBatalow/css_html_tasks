@@ -182,3 +182,202 @@ p .bbb {
 .italic {
     font-style: italic;
 }
+
+/* Задание_64_1 */
+#elem1 {
+    color: red;
+}
+#elem2 {
+    color: green;
+}
+#elem3 {
+    color: blue;
+}
+
+/* Задание_65_1 */
+#block {
+    
+    padding: 20px;
+    border: 2px;
+}
+.text {
+    font-family: Arial;
+    color: darkblue;
+}
+.text p {
+    margin: 10px 0;
+}
+
+/* Задание_66_1 */
+#elem h2 {
+    color: red;
+}
+
+/* Задание_66_2 */
+#elemm .text {
+    color: blue;
+}
+
+/* Задание_66_4 */
+#elemmm li.text {
+    color: red;
+}
+
+/*Задание_67_1 */
+.eee.zzz.ccc {
+	color: red;
+}
+
+/* Задание_68_1 */
+.bbb.zzz {
+	color: red;
+}
+
+/* Задание_68_2 */
+h2.bbb.zzz {
+	color: green;
+}
+
+/*Задание_68_3 */
+#eelem.bbb {
+	color: red;
+}
+
+/* Задание_68_4 */
+#eeelem .bbb.zzz {
+	color: green;
+}
+
+
+/*Задание_71_1*/
+
+#blockk h1,
+#blockk h2,
+#blockk h3
+ {
+	text-align: center;
+}
+#blockk h2 {
+	color: blue;
+}
+#blockk h3 {
+	font-size: 16px;
+	color: red;
+}
+
+/*Задание_71_2*/
+
+#block1 h1.eee,
+#block1 h2.zzz {
+	text-align: center;
+}
+
+#block1 h2.zzz {
+	font-size: 20px;
+}
+
+#block1 h1.eee {
+	font-size: 30px;
+}
+
+/*Задание_71_3*/
+
+.xxx .kkk, 
+.eeee h2.zzzz, 
+#eeee h2 {
+	text-align: center;
+}
+
+/*Задание_71_4*/
+
+.ee h2.zz,
+.xx {
+    text-align: center;
+}
+
+/*Задание_72_1*/
+div p {
+    color: blueviolet;
+}
+
+/*Задание_72_2*/
+div h2 {
+    color:aqua
+}
+
+/*Задание_72_3*/
+#bloock p{
+    color:rgb(157, 255, 0)
+}
+
+/*Задание_72_5*/
+
+.bbb{
+    color : lightcoral
+}
+
+/*Задание_72_6*/
+#blocck .bbcb {
+text-align : center;
+color:darkmagenta; 
+}
+
+/*Задание_72_7*/
+p.bbbk{
+    font-size: 40px;
+    color :darkgoldenrod;
+}
+
+/*Задание_72_8*/
+h2.bbb1 {
+    font-size: 30px;
+    color :rgb(255, 0, 0);
+}
+
+/*Задание_72_9*/
+#block2 p.bbb2 {
+    font-size: 35px;
+    color:cornflowerblue;
+}
+
+/*Задание_72_11*/
+p.bbb4, h2.xxx4 {
+    text-align : center;
+    color:blue ;
+}
+
+/*Задание_72_12*/
+#block5 p.bbb5, #block5 p.xxx5 {
+    font-size: 35px;
+    text-align : center;
+    color:rgb(208, 255, 0) ;
+
+}
+
+/*Задание_72_17*/
+.fff6 h2.bbb6 {
+    font-size: 45px;
+    text-align : center;
+    color:rgb(218, 155, 2) ;
+}
+
+/*Задание_77_1*/
+#elem77 + li {
+    color: rgb(111, 0, 255);
+}
+
+/*Задание_77_2*/
+.elem77_2 + li {
+    color: rgb(208, 255, 0);
+}
+
+/*Задание_78*/
+#elem78 ~ li {
+    color:chartreuse;
+    font-size: 25px;
+}
+
+/*Задание_79*/
+main * p {
+    color: hotpink;
+}
