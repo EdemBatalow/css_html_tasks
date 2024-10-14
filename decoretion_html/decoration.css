@@ -217,3 +217,7 @@ body{
 	width: 563px;
 	height: 564px;
 }
+
+#task_112 ul {
+	list-style-type: square;
+}
