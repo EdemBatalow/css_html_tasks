@@ -105,3 +105,20 @@
     border-bottom: 1px solid blue;
     border-left: 3px solid red;
 }
+
+/*Задание_99*/
+
+#elem13 {
+    height:200px;
+    width: 200px;
+    border: 1px solid green;
+    border-radius: 30px;
+}
+
+/*Задание_100*/
+#elem14 {
+	border-radius: 30px;
+	width: 200px;
+	height: 200px;
+	background-color: rgb(0, 255, 179);
+}
