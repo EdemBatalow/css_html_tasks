@@ -236,3 +236,11 @@ body{
 #task_119 ol {
 	list-style-type: lower-alpha;
 }
+
+#task_120 ol {
+	list-style-type:upper-alpha;
+}
+
+#task_121 ol {
+	list-style-type: lower-greek;
+}
