@@ -124,3 +124,24 @@ h3.header {
 .aaa i {
     color: red
 }
+
+/*Задание 61_1*/
+
+.eee .bbb {
+    color: red;
+}
+
+/*Задание 61_2*/
+.eee h2 {
+	color: red;
+}
+
+/*Задание 61_3*/
+.eee h2.bbb {
+	color: red;
+}
+
+/*Задание 61_4*/
+.eee .bbb .kkk {
+	color: red;
+}
