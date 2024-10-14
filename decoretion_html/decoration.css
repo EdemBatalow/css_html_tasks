@@ -230,3 +230,9 @@ body{
 #task_115 ul {
 	list-style-type: none;
 }
+
+/*Задание 119*/
+
+#task_119 ol {
+	list-style-type: lower-alpha;
+}
