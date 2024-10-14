@@ -164,3 +164,8 @@
     border: 1px solid green;
     border-radius: 50%;
 }
+/*Задание 108*/
+body{
+    
+    background-image: url(bg.png)
+}
