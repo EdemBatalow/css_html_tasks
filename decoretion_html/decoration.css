@@ -217,7 +217,11 @@ body{
 	width: 563px;
 	height: 564px;
 }
-
+/*Задание 112*/
 #task_112 ul {
 	list-style-type: square;
+}
+/*Задание 113*/
+#task_113 ul {
+    list-style-type: circle;
 }
