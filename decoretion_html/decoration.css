@@ -225,3 +225,8 @@ body{
 #task_113 ul {
     list-style-type: circle;
 }
+
+/*Задание 115*/
+#task_115 ul {
+	list-style-type: none;
+}
